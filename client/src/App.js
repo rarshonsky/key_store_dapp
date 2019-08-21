@@ -148,6 +148,35 @@ class App extends Component {
           <Segment>
             <h2>No connection to Thunder</h2>
             <p>Please make sure you are using a DApp browser such as MetaMask or Mist.</p>
+            <p> This contract is deployed to the Thundercore Test Net</p>
+            <p> Thundercore Wallet Instructions: <a href='https://www.thundercore.com/wallet-instructions'>https://www.thundercore.com/wallet-instructions</a> </p>
+            <p> Add custom RPC on MetaMask withthe following values:
+
+
+          </p>
+          <table>
+            <tr>
+              <td>Network Name </td>
+              <td> Thundercore Test Net </td>
+            </tr>
+            <tr>
+              <td>New RPC URL</td>
+              <td> https://testnet-rpc.thundercore.com </td>
+            </tr>
+            <tr>
+              <td>ChainID </td>
+              <td> 18 </td>
+            </tr>
+            <tr>
+              <td>Symbol </td>
+              <td> TT </td>
+            </tr>
+          </table>
+
+          <p> Once connected Go to <a href='https://faucet-testnet.thundercore.com'>https://faucet-testnet.thundercore.com</a> to get free testnet tokens.</p>
+          <p>Authenticate with Google or Github. </p>
+          <p>Enter Wallet address to receive tokens at (this can be found at the top of MetaMask, click Account 1 and it'll copy the address) </p>
+
           </Segment>
         )
       }

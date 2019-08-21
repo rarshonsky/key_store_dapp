@@ -2,3 +2,7 @@
   margin: 0;
   padding: 0;
 }
+
+td {
+  padding-left: 10px;
+}
